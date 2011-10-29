@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/!svn/ver/120/digi-tain.com/include/tracker
+END
+config.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/!svn/ver/94/digi-tain.com/include/tracker/config.inc.php
+END
+scrape.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/!svn/ver/94/digi-tain.com/include/tracker/scrape.php
+END
+digitain.tracker-install.sql
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/96/digi-tain.com/include/tracker/digitain.tracker-install.sql
+END
+bencoding.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/94/digi-tain.com/include/tracker/bencoding.inc.php
+END
+clean.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/!svn/ver/94/digi-tain.com/include/tracker/clean.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/!svn/ver/94/digi-tain.com/include/tracker/.htaccess
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/!svn/ver/94/digi-tain.com/include/tracker/readme.txt
+END
+announce.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/120/digi-tain.com/include/tracker/announce.php
+END

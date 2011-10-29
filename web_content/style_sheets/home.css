@@ -1,0 +1,59 @@
+@CHARSET "ISO-8859-1";
+h1.registration{
+	color: #C2B1B4;
+	font-size: 2em;
+	font-weight: bold;
+}
+#featured_ad div{
+    position: absolute;
+    width: 336px;
+    left: -168px;
+    top: 600px;
+    text-align: center;
+}
+#registration{
+	position: relative;
+	width: 250px;	
+	height: 115px;
+}
+#registration div.form_boxes{
+	position: absolute;
+	float: right;
+	right: 0px;
+	width: 100px;
+}
+#registration div.form_boxes input{
+	position: relative;
+	float: right;
+	right: 5px;
+	width: 105px;
+	height: 15px;
+	margin-top: 5px;
+}
+#registration div.seperator{
+	position: absolute;
+	border-top-width: 1px;
+	border-top-style: solid;
+	width: 250px;
+	top: 28px;
+	border-top-color: #393070;
+	border-right-color: #393070;
+	border-bottom-color: #393070;
+	border-left-color: #393070;
+}
+#registration input.submit{
+	position: absolute;
+	float: right;
+	right: 20px;
+	width: 75px;
+	bottom: 0px;
+}
+#registration ul.form_descripts{
+	position: absolute;
+	line-height: 26px;
+	top: 3px;	
+	left: 5px;
+}
+#movie_of_week a:hover{
+	color:#393070;	
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /authorize.php
+Disallow: /share.php
+Disallow: /help.php
+
+#Site Map
+sitemap: http://digi-tain.com/sitemap.xml

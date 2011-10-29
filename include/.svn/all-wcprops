@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/repos/!svn/ver/147/digi-tain.com/include
+END
+function_library.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/94/digi-tain.com/include/function_library.php
+END
+page_handler.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/!svn/ver/96/digi-tain.com/include/page_handler.php
+END
+session_initialization.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/57/digi-tain.com/include/session_initialization.php
+END
+my_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/!svn/ver/147/digi-tain.com/include/my_header.php
+END
+global_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/!svn/ver/116/digi-tain.com/include/global_footer.php
+END
+db_connection.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/!svn/ver/109/digi-tain.com/include/db_connection.php
+END
+yahtzee_score.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/!svn/ver/52/digi-tain.com/include/yahtzee_score.php
+END
+Zebra_Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/!svn/ver/52/digi-tain.com/include/Zebra_Session.php
+END
+global_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/!svn/ver/146/digi-tain.com/include/global_header.php
+END
+global_login.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/!svn/ver/94/digi-tain.com/include/global_login.php
+END
