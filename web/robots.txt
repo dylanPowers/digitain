@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /yahtzee/yahtzee.php
+Disallow: /yahtzee/new-yahtzee-game.php
+Disallow: /logout.php
+Allow: /
+
+#Site Map
+sitemap: http://digi-tain.com/sitemap.xml

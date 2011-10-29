@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+#bt_client_help h2{
+    margin: 10px 0px 0px 0px; 
+    border-top: 3px solid #393070;
+    padding-top: 5px;
+        
+}
+#bt_client_help h3{
+    margin: 10px 0px 0px 15px;
+    font-size: 1.2em;
+    border-top: 1px solid #DDB575;
+}
+#bt_client_help h4{
+    margin: 10px 0px 0px 35px;
+    color: #DDB575;
+}
+#bt_client_help h4+p, #bt_client_help h4+p+p{
+    margin: 0px 0px 5px 50px;
+}
+#bt_client_help p{
+    margin-left: 15px;
+}
+#bt_client_help .outdated+p{
+    text-decoration: line-through;
+}
+#dl_files table{
+    border-collapse: collapse;
+}
+#dl_files a{
+    text-decoration: none;
+}
+#dl_files td, #dl_files th{
+    border-bottom: 1px solid #DDB575;
+    padding: 5px 10px 5px 10px;
+}
+#global_header{
+	min-width: 1000px;
+}
+#global_header nav{
+	min-width: 390px;	
+}
+#global_page_elements{
+	min-width: 1000px;	
+}
+#notice{
+    left: 375px;
+}
+#opts ul{
+	list-style-type: disc; 
+	list-style-position: inside;	
+}
+

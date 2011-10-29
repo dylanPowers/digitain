@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.sitemaps.org/schemas/sitemap-image/1.1"
+    xmlns:video="http://www.sitemaps.org/schemas/sitemap-video/1.1">
+<url>
+    <loc>http://digi-tain.com/index.php</loc>
+    <loc>http://digi-tain.com/about.php</loc>
+    <loc>http://digi-tain.com/register.php</loc>
+    <loc>http://digi-tain.com/yahtzee/</loc>
+    <loc>http://digi-tain.com/yahtzee/index.php</loc>
+    <loc>http://my.digi-tain.com</loc>
+    <loc>http://my.digi-tain.com/index.php</loc>
+    <image:image>
+        <image:loc>http://digi-tain.com/imgs/digitain_logo.png</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>http://digi-tain.com/imgs/my.digitain_logo.png</image:loc>
+    </image:image>
+</url>    
+</urlset>

@@ -1,0 +1,371 @@
+@CHARSET "ISO-8859-1";
+body { 
+    color: #c9c9c9;
+    background-color: #808080;
+    font-family:  Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+}
+a:link{    
+    color: #fef53d;
+}
+a:visited{    
+    color: #0d0d57;
+}
+h1{
+	font-size: 2.5em;
+}
+h2{
+	font-size: 1.5em;
+}
+nav, nav :link, nav :visited{
+	color: #15565B;
+	text-decoration: none;
+}
+.center{
+    position: absolute;
+    left: 50%;
+}
+.content{    
+    text-align: center;
+}
+.global_error{
+	color: #bb0000;
+}
+.global_logo{
+	height: 75px;
+	background-color: #808080;
+}
+
+.no_link:visited, .no_link:link{
+	color: #c9c9c9;
+	text-decoration: none;	
+}
+.outdated{
+    text-decoration: line-through;
+}
+div.login{
+	position: relative;
+	width: 200px;
+	height: 80px;	
+}
+div.login input.submit_button{
+	height: 25px;
+	width: 66px;
+}
+div.login_boxes input{
+	float: right;
+	height: 12pt;
+	clear: right;
+	width: 100px;
+}
+h2.em{
+	font-weight: bold;
+}
+ul.login_descripts{
+	line-height:1.5;	
+}
+#about h2{
+	font-size: 2em;	
+}
+#about p{
+	margin-top: 15px;	
+}
+#footer_ad_block div{
+    position: absolute;
+    width: 468px;
+    top: 1350px;
+    float: right;
+    left: -234px;
+}
+#global_header{
+	position: relative;
+	height: 150px;
+	width: 80%;
+	min-width: 500px;
+	max-width: 2560px;
+	top: 0px;
+	right: 10%;
+	left: 10%;
+}
+
+#global_header p{
+	position: absolute;
+	float: right;
+	right: 45px;
+	bottom: 45px;
+	font-weight: bold;
+}
+#global_header a.logout{
+	position: absolute;
+	float: right;
+	right: 45px;
+	bottom: 25px;
+}
+#global_header div.login{
+	position: relative;
+	float: right;
+	top: 50px;
+	right: 45px;
+    width: 200px;
+}
+#global_header ul.login_descripts{
+	position: absolute;
+	float: left;
+	left: 5px;
+	top: 3px;
+	
+}
+#global_header .login_descripts li{
+	font-size: 1.1em;
+}
+#global_header div.login_boxes input{
+	position: relative;
+	float: right;
+	right: 0px;
+	margin-top: 5px;
+	height: 12pt;
+}
+#global_header div.login a{
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+}
+#global_header div.login input.submit_button{
+	position: absolute;
+	bottom: 0px;
+	float: right;
+	right: 17px;	
+}
+#global_header img.global_logo{
+	position: absolute;
+	left: 45px;
+	top: 50px;
+}
+#global_header nav{
+	position: fixed;
+	z-index: 100;
+	left: 0px;
+	width: 50%;
+	min-width: 312px;
+	max-width: 1600px;
+}
+#global_header nav ul{
+	position: absolute;
+	background-color: #E9D85F;
+	border-radius: 0px 0px 7px 7px;
+	color: #15565B;
+	right: -120px;
+	width: 240px;
+	height: 20px;
+	text-align: center;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333;
+	border-right-color: #333;
+	border-bottom-color: #333;
+	border-left-color: #333;
+}
+#global_header nav li{
+	position: absolute;
+	width: 80px;
+	height: 30px;
+}
+#global_header nav li.anchor{
+	background-image:url(http://digi-tain.com/imgs/button.png);
+	background-repeat: no-repeat;
+	left: 81px;
+	height: 50px;
+	width: 81px;
+	line-height: 1.4;
+	background-position: center top;
+}
+#global_header nav li.left{
+	float: left;
+	left: 0px;
+}
+#global_header nav li.right{
+	right: 0px;
+	float: right;	
+}
+#global_header p.global_error{	
+	bottom: 100px;
+	font-weight: normal;
+}
+#global_page_content_spacer{
+	position: relative;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 25px;
+}
+#global_page_content{
+	position: relative;
+}
+#global_page_elements{
+	background-image: url("http://digi-tain.com/imgs/global_digitain_bg.jpg");
+	border-radius: 45px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 0px;
+	bottom: 50px;
+	right: 10%;
+	left: 10%;
+	height: 1600px;
+	width: 80%;
+	min-width: 500px;
+	max-width: 2560px;
+    margin-bottom: 50px;
+	
+}
+#global_page_elements hgroup{
+	text-align: center;	
+}
+#global_page_elements nav, #global_page_elements nav :link, #global_page_elements nav :visited{
+	color: #15565B;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.5;	
+}
+#global_page_elements nav.nav_left{
+	position: absolute;
+	float: left;
+	width: 100px;
+	height: 150px;
+	left: -25px;
+	top: 100px;
+	padding-top: 15px;
+	background-color: #FFF546;
+	border-radius: 25px 25px 0px 0px;
+	border: 2px solid #0E3954;
+}
+#global_page_elements nav.nav_left li{
+	font-size: 1.2em;
+}
+#in_page_login{
+	position: relative;
+	margin-top: 5px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #393070;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+}
+#in_page_login ul.login_descripts{		
+	position: absolute;
+	float: left;
+	left: 5px;
+	top: 3px;
+}
+#in_page_login div.login_boxes input{
+	position: relative;
+	float: right;
+	right: 5px;
+	margin-top: 5px;
+	height: 12pt;
+}
+
+#in_page_login input.submit_button{
+	position: absolute;
+	bottom: 0px;
+	float: right;
+	right: 23px;
+}
+#movie_of_week{
+	position: absolute;
+	top: 150px;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	z-index: 1;	
+}
+#movie_of_week object{
+	width: 100%;
+	height: 100%;
+	z-index: 1;	
+}
+#notice{
+    border: 2px dashed #C00;
+    position: absolute;
+    text-align: center;
+    top: 75px;
+    left: 275px;
+    right: 275px;
+    font-size: 1.5em;
+    z-index: 1;
+}
+#notice a{
+    color: #D00;
+}
+#notice:hover{
+    background-color: #c9c9c9; 
+}
+#site_map{
+	list-style-type: disc;	
+	padding-left: 25px;
+	padding-top: 10px;
+	line-height: 1.2;
+}
+#site_map li{
+	font-size: 1.2em;
+}
+#site_map ul{
+	list-style-type: circle;
+	padding-left: 25px;	
+	font-size: .9em;
+}
+p.login_head_fail{
+	color: #F00;
+	font-weight: bold;
+	height: 5px;
+	clear: none;
+	float: none;
+	position: relative;
+}
+div.standard_layout{
+	position: absolute;
+}
+table.scorecard {
+    background-color:gray;
+    border-color:#c9c9c9;
+    border-style:solid;
+    border-width:5px;
+    border-collapse:collapse;
+    width:180px;
+    padding:4px;
+}
+b.bonus{    
+    font-size: 36px;
+}
+tr.bar{    
+    background-color: #7b60ff;
+}
+td.login_box{
+    text-align: center;
+}
+td.scorecard{
+	text-align:right;
+	border-style:solid;
+	border-color:#bb0000;
+	border-width:2px;
+	padding:4px;
+}
+td.scorecard_points{
+	width:40px;
+	text-align:center;
+	border-style:solid;
+	border-color:#bb0000;
+	border-width:2px;
+}
+th.scorecard_name {
+	font-weight:900;
+	text-align:center;
+	padding:5px;
+}
