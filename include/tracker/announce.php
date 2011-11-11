@@ -8,8 +8,7 @@
 require_once 'bencoding.inc.php';
 require_once 'config.inc.php';
 
-//A very strange PHP hiccup I've come across is that relative directories are relative to the requested file on the server.
-//This is relative to tracker/announce/index.php
+
 require('../../include/function_library.php');
 
 function errorexit($reason) {
