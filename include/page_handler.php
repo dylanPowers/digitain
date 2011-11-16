@@ -61,5 +61,5 @@ if (isset($page_path)){
     include('pages/'.$page_path);
 }
 //We also want to be sure to include the site-wide footer.
-include('global_footer.php')
+include('global_footer.php');
 ?>
