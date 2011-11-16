@@ -422,6 +422,7 @@ class yahtzee_game{
     
     //Function for score evaluation. $dice and $scorecard should be objects of 
     //their respective names.
+	//Noob function...
     function score_eval($dice, $scorecard, $get_yahtzee, $bonus_mode){        
         $three_kind = False;        //Primer variables
         $four_kind = False;
@@ -454,7 +455,7 @@ class yahtzee_game{
                 $i=0;
                 foreach($die_nums as $current){
                     $match = null;
-                    eval('$match = (bool)("'.$current.'" == "'.$die.'");');
+                    eval('$match = (bool)("'.$current.'" == "'.$die.'");');//Why do I have an eval here???? (head scratching moment)
                     $i = $match ? $i+1 : $i;
                 }
                 $die_count = $i;	                   

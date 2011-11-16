@@ -1,7 +1,7 @@
 <?php
 /*
- * The purpose of ip2bin() and bin2ip() is to convert an ipv4 and ipv6 address to and from decimal numeric format for database storage. 
- * These functions original author had written these functions for ip to binary conversion. Unfortunately, binary is a pain to 
+ * The purpose of ip2dec() and dec2ip() is to convert an ipv4 and ipv6 address to and from decimal numeric format for database storage. 
+ * These function's original author had written these functions for ip to binary conversion. Unfortunately, binary is a pain to 
  * store in a MySQL database so it was rewritten to convert to an integer. It's also important to note that
  * PHP's builtin function ip2long() does not work with ipv6 addresses (hopefully that's something in the works). For now, this is the best solution. 
  * In the whole scheme of things, ipv6 support is not a must have, but I like to future proof things.

@@ -5,6 +5,7 @@ define('SERVER_NAME_LOCALHOST', '127.0.0.1');
 define('SERVER_NAME_BLOG_', 'blog.digi-tain.com');
 define('SERVER_NAME_HOME', 'digi-tain.com');
 define('SERVER_NAME_HOME_ALT', 'www.digi-tain.com');
+define('SERVER_NAME_TRACKER_', 'tracker.digi-tain.com');
 
 include_once('lib/debug.php');
 
